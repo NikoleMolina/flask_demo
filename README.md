@@ -1,5 +1,5 @@
-# Flask Template
-Basic structure for starting a Flask project with Jinja templates
+# Flask Demo
+Basic Flask application for class demo
 
 ---
 1. Clone this repository to local computer
@@ -29,3 +29,8 @@ Basic structure for starting a Flask project with Jinja templates
 12. Create and change to a new local development branch ```git checkout b development```
 
 13. Continue working with the project as you normally would.
+
+- [ ] add web form for users
+- [ ] collect web form data and manipulate
+- [ ] read API data from another source
+- [ ] read database data from a RDBMS
