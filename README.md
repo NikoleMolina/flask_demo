@@ -30,6 +30,7 @@ Basic Flask application for class demo
 
 13. Continue working with the project as you normally would.
 
+- [x] Get flask running on local computer
 - [ ] add web form for users
 - [ ] collect web form data and manipulate
 - [ ] read API data from another source
