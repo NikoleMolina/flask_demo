@@ -1,4 +1,7 @@
 # Flask Demo
+![Microsoft Azure](https://img.shields.io/badge/-Azure-blue?logo=microsoftazure)
+![Flask](https://img.shields.io/badge/-Flask-black?logo=flask)
+
 Basic Flask application for class demo
 
 ---
