@@ -5,6 +5,9 @@
 Basic Flask application for class demo
 
 ---
+# What Did I Learn?
+
+---
 1. Clone this repository to local computer
 
 2. Rename the directory to reflect the new project name
