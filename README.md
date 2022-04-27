@@ -5,6 +5,9 @@
 Basic Flask application for class demo
 
 ---
+# What Did I Learn?
+
+---
 1. Clone this repository to local computer
 
 2. Rename the directory to reflect the new project name
@@ -18,14 +21,6 @@ Basic Flask application for class demo
    - Mac:  ```source ./venv/bin/activate```
 
 6. Install the dependencies ```pip install -r requirements.txt```
-
-7. Make a new repository by running ```git init``` in the folder.
-
-8. Track all the files in the new local repository ```git add .```
-
-9. Make the first commit of this new project ```git commit -m 'first commit of <project name>``` from flask_template
-
-10. On Github, create a new repository. DO NOT initialize it
 
 11. Connect the local repository to the new Github repository ```git remote add origin <<repository_URL>>```
 
