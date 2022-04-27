@@ -19,14 +19,6 @@ Basic Flask application for class demo
 
 6. Install the dependencies ```pip install -r requirements.txt```
 
-7. Make a new repository by running ```git init``` in the folder.
-
-8. Track all the files in the new local repository ```git add .```
-
-9. Make the first commit of this new project ```git commit -m 'first commit of <project name>``` from flask_template
-
-10. On Github, create a new repository. DO NOT initialize it
-
 11. Connect the local repository to the new Github repository ```git remote add origin <<repository_URL>>```
 
 12. Create and change to a new local development branch ```git checkout b development```
