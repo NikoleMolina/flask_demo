@@ -19,9 +19,9 @@ def add_friend():
         form = request.form
         fname = form['fname']
         lname = form['lname']
-        # email = form['email']
         friend_dict = {"name": fname + " " + lname}
         friend_list.append(friend_dict)
+        print(friend_list)
         return redirect(url_for('index'))
     return redirect(url_for('index'))
  
