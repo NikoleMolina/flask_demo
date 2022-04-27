@@ -7,13 +7,13 @@ friend_list = [{"name": "Mike Colbert"} ]
 
 @app.route('/')
 def index():
-    return render_template('index.html', pageTitle='Flask Server Home Page')
+    return render_template('index.html', pageTitle='Nikole\'s Friends', friends = friend_list)
 
 @app.route('/mike')
 def mike():
     return render_template('mike.html', pageTitle='About Mike')
 
-@app.route('/add_friend', methods=['GET','POST'])
+@app.route('/add_friend', methods=['GET', 'POST'])
 def add_friend():
     if request.method == 'POST':
         form = request.form
@@ -22,7 +22,7 @@ def add_friend():
         # email = form['email']
         friend_dict = {"name": fname + " " + lname}
         friend_list.append(friend_dict)
-        return redirect(url_for('mike'))
+        return redirect(url_for('index'))
     return redirect(url_for('index'))
  
 
